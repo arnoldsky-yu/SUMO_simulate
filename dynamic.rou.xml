@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+    <vType id="motorcycle" 
+           accel="1.8"
+           decel="4.5"
+           sigma="0.4"
+           length="2.0"
+           minGap="1.5"
+           color="0.8,0.8,0.0"
+           maxSpeed="12.1"
+           guiShape="motorcycle"
+    />
+
+    <vType id="PassengerCar" 
+           accel="1.2"
+           decel="3.5"
+           sigma="0.2"
+           length="4.5"
+           minGap="2.0"
+           color="0.5,0.5,0.5"
+           maxSpeed="13.9"
+           guiShape="passenger"
+    />
+
+    <vType id="Truck" 
+           accel="0.8"
+           decel="3.0"
+           sigma="0.2"
+           length="12.0"
+           minGap="3.0"
+           color="1,1,0"
+           maxSpeed="13.9"
+           guiShape="truck"
+    />
+
+
+       <route id="1" edges="B_M M_N N_D"/>
+       <route id="2" edges="B_M M_N N_F"/>
+       <route id="3" edges="B_M M_N N_O O_H"/>
+       <route id="4" edges="B_M M_N N_O O_P P_J"/>
+       <route id="5" edges="B_M M_N N_O O_P P_L"/>
+
+       <route id="6" edges="E_N N_M M_A"/>
+       <route id="7" edges="E_N N_D"/>
+       <route id="8" edges="E_N N_O O_H"/>
+       <route id="9" edges="E_N N_O O_P P_J"/>
+       <route id="10" edges="E_N N_O O_P P_L"/>
+
+       <route id="11" edges="C_N N_M M_A"/>
+       <route id="12" edges="C_N N_F"/>
+       <route id="13" edges="C_N N_O O_H"/>
+       <route id="14" edges="C_N N_O O_P P_J"/>
+       <route id="15" edges="C_N N_O O_P P_L"/>
+
+       <route id="16" edges="G_O O_N N_M M_A"/>
+       <route id="17" edges="G_O O_N N_D"/>
+       <route id="18" edges="G_O O_N N_F"/>
+       <route id="19" edges="G_O O_P P_J"/>
+       <route id="20" edges="G_O O_P P_L"/>
+
+       <route id="21" edges="I_P P_M M_A"/>
+       <route id="22" edges="I_P P_M M_N N_D"/>
+       <route id="23" edges="I_P P_M M_N N_F"/>
+       <route id="24" edges="I_P P_O O_H"/>
+       <route id="25" edges="I_P P_L"/>        
+
+       <route id="26" edges="K_P P_M M_A"/>
+       <route id="27" edges="K_P P_O O_N N_D"/>
+       <route id="28" edges="K_P P_M M_N N_F"/>
+       <route id="29" edges="K_P P_O O_H"/>
+       <route id="30" edges="K_P P_J"/>
+</routes>
